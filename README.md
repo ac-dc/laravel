@@ -1,4 +1,4 @@
-# Reliese Laravel
+# AC-DC:) Laravel
 
 [![StyleCI](https://styleci.io/repos/71080508/shield?style=flat)](https://styleci.io/repos/71080508)
 [![Build Status](https://travis-ci.org/reliese/laravel.svg?branch=master)](https://travis-ci.org/reliese/laravel)
@@ -13,11 +13,11 @@ providing some convenient code-generation capabilities.
 
 ## How does it work?
 
-This package expects that you are using Laravel 5.1 or above.
+This package expects that you are using Laravel 6.0 or above.
 You will need to import the `reliese/laravel` package via composer:
 
 ```shell
-composer require reliese/laravel
+composer require ac-dc/laravel
 ```
 
 ### Configuration
@@ -96,7 +96,7 @@ php artisan code:models --schema=shop
 ### Customizing Model Scaffolding
 
 To change the scaffolding behaviour you can make `config/models.php` configuration file
-fit your database needs. [Check it out](https://github.com/reliese/laravel/blob/master/config/models.php) ;-)
+fit your database needs. [Check it out](https://github.com/ac-dc/laravel/blob/master/config/models.php) ;-)
 
 ### Tips
 
